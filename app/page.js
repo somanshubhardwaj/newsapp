@@ -8,7 +8,6 @@ async function fetchNews() {
 }
 export default async function Home() {
   const news = await fetchNews();
-  console.log(news);
   return (
     <>
       <navbar className="bg-gray-800">

@@ -11,7 +11,7 @@ export default async function Home() {
   return (
     <>
       <navbar className="bg-gray-800">
-        <h1 className="text-white">NEWS App</h1>
+        
       </navbar>
       <div className="container mx-auto">
         <h1 className="text-2xl font-bold">News App</h1>

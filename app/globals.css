@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: black;
+    color: #f7fafc;
+}

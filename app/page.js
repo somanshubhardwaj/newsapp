@@ -1,7 +1,7 @@
 import Image from "next/image";
 async function fetchNews() {
   const res = await fetch(
-    "https://newsapi.org/v2/top-headlines?country=in&apiKey=15618522b32b4694bafd42d58741a875"
+    "https://newsapi.org/v2/top-headlines?country=in&apiKey=15618522b32b4694bafd42d58741a875",{ cache :'no-store'}
   );
   const data = await res.json();
   return data;
